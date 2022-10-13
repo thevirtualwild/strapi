@@ -28,7 +28,7 @@ const HomeHeader = ({ hasCreatedContentType, onCreateCT }) => {
             {hasCreatedContentType
               ? formatMessage({
                   id: 'app.components.HomePage.welcome.again',
-                  defaultMessage: 'Welcome 👋',
+                  defaultMessage: 'Michael Welcomes you! 👋',
                 })
               : formatMessage({
                   id: 'app.components.HomePage.welcome',
